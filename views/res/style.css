@@ -1,0 +1,215 @@
+
+body {
+    background-color: #ADD8E6;
+    font-family: 'Calibri';
+}
+.registration_form{
+    background-color: #ffffff;
+    width: 30%;
+    margin: 5em auto 1em auto;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px #00000077;
+}
+input{
+    width:97%;
+    margin: .5em auto;
+    margin-top: .1em;
+    padding: .5em .2em;
+    border: .1em solid #33885577;
+    border-radius: 5px;
+    outline-color:#ADD8E6;
+    
+}
+label{
+    color: #000000;
+    font-size: .8em;
+}
+input[type='submit']{
+    width: 98.5%;
+    background-color: #ADD8E6;
+    color:#eeeeff;
+    border:none;
+    padding:.5em 0em;
+}
+input[type='submit']:hover{
+    background-color: #3344dd;
+}
+.navbar{
+    background-color:#ffffff;
+    margin: 0px;  
+    box-shadow: 2px 2px 5px 0px #000000;
+    border-radius: 10px;
+    
+}
+.right-list{
+    text-align: right;
+    display: inline-block;
+    color: #116622;    
+    margin: 3px;
+}
+.right-list li{
+    list-style-type: none;
+    display: inline-block;
+    padding:1em;
+    color: #116622;
+}
+.right-list li:hover{
+    background-color:#ccefd5;
+}
+a{
+    text-decoration: none;
+    color: #116622;
+}
+.form-title{
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 40px;
+    color: #116622;
+    font-family: 'Times New Roman';
+}
+
+.title {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+/* LINE UNDER "PROFILE" */
+.title::after {
+    content: "";
+    display: block;
+    width: 80%;          /* full width left to right */
+    height: 2px;
+    background-color: #ffffff;
+    margin: 10px auto 0;
+}
+
+
+.alert{
+    text-align: center;
+    font-size: .8em;
+    color: #808080;
+}
+.left-list{
+    text-align: left;
+    display: inline-block;
+    margin: 0px;
+    width: 80%;
+}
+.left-list li{
+    list-style-type: none;
+    display: inline-block;
+    padding:1em;
+    color: #116622;
+}
+.left-list li:hover{
+   background-color: #ccefd5;
+}
+
+.logo {
+    background-image: url('chatty.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50px;      
+    height: 25px;     
+ 
+  
+}
+.container{
+    background-color: #dcffe5;
+    width: 80%;
+    min-height: 40vh;
+    margin:auto;
+    border-radius: 15px;
+    position:relative;
+    overflow: hidden;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px 0px #005500f3;
+}
+.banner{
+    background-image: url('profilebg.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative;
+    height: 20vh;
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+}
+
+.profile_pic{
+    background-image: url('catty.jpg'); 
+    position: relative;
+    z-index:200;
+    width: 20vh;
+    height: 20vh;
+    background-color: #ffffff;
+    border-radius: 100px;
+    left:10vh;
+    top: 5vh;
+    box-shadow: 1px 1px 5px 0px #005500f3;
+}
+.container h2{
+    margin: 0px 0px;
+    position: relative;
+    top: 15vh;
+    left:32vh;
+    font-size: 2em;
+}
+.post-container{
+    width: 75%;
+    margin:auto;
+    margin-top: 8vh;
+    padding: 5vh;   
+}
+#post_area{
+    width:100%;
+    resize: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    height: 5em;
+}
+.post{
+    padding:1em;
+    margin: .25em auto;
+    border: .01em solid;
+    border-color: #116622;
+    border-radius: 15px;
+    color: #116622;
+}
+.post-pic{
+    font-weight: bold;
+}
+.post-text{
+    padding-left: 2em;
+    margin: .5em;
+}
+
+.timeline-container {
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.timeline-title {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #333;
+}
+
+.timeline-container {
+    position: relative;
+    margin: 1em auto;
+    min-height: 40vh;
+    min-width: 50vh;
+    width: 60%;
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 2px #11666677;
+    padding: 2em
+}
